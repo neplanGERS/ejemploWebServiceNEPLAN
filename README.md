@@ -13,7 +13,6 @@ El objetivo principal es proporcionar una guía inicial para la configuración y
 
 ## Contenido del repositorio
 
-- Ejemplos de conexión con NEPLAN
 - Configuración básica de Web Services
 - Ejemplos de consultas y modificación de parámetros
 - Scripts en Python para automatización
