@@ -47,23 +47,6 @@ neplan_service = client.create_service(        # Crea ejecutable el servicio SOA
 
 
 
-operation = (
-    client.wsdl.services[
-        "NeplanService"
-    ]
-    .ports[
-        "BasicHttpBinding_NeplanService"
-    ]
-    .binding
-    ._operations[
-        "AnalyseVariantWithAnalysisSettings"
-    ]
-)
-
-print(operation.input.signature())
-
-print(operation.output.signature())
-
 settings_type = client.get_type(
     "ns2:AnalysisParameterSettings"
 )
