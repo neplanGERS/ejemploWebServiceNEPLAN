@@ -45,10 +45,3 @@ neplan_service = client.create_service(        # Crea ejecutable el servicio SOA
     SERVICE_URL
 )
 
-
-
-settings_type = client.get_type(
-    "ns2:AnalysisParameterSettings"
-)
-
-print(settings_type)
